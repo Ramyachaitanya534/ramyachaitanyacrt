@@ -1,0 +1,25 @@
+
+import java.util.*;
+import java.lang.Math;
+
+
+
+public class Solution {
+
+    public static void main(String[] args) {
+Scanner scanner  = new Scanner(System.in);
+        
+        int side=scanner.nextInt();
+        int length=scanner.nextInt();
+        int breadth=scanner.nextInt();
+        float radius=scanner.nextFloat();
+        
+        int areaOfSquare=side*side;
+        int areaOfRectangle=length*breadth;
+        float areaOfCircle=(float)3.14*radius*radius;
+           
+        System.out.println(areaOfSquare);
+        System.out.println(areaOfRectangle);
+        System.out.printf("%.2f",areaOfCircle);
+    }
+}
