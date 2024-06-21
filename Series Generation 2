@@ -1,0 +1,29 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int odd_num=7;
+        int even_num=5;
+        int num=sc.nextInt();
+        for(int i=1;i<=num;i++)
+        {
+            if(i%2!=0)
+            {
+                
+                System.out.print(odd_num+" ");
+                
+                odd_num++;
+            }
+            else
+            {
+                
+                System.out.print(even_num+" ");
+               
+                even_num++;
+            }
+        }
+    }
+}
