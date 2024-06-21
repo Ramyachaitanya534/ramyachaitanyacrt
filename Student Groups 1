@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) 
+    {
+    Scanner sc=new Scanner(System.in);
+        int rem=0,num=0;
+        int p=sc.nextInt();
+        if(p<100||p>200)
+        {
+            System.out.println("INVALID INPUT");
+        }
+        else
+        {
+          rem=p%4;
+            num=p/4;
+            for(int i=1;i<4;i++){
+                System.out.println(num);
+            }
+             System.out.println(num+rem);
+        }
+            
+    }
+}
+        
