@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    int wL=sc.nextInt();
+    int noOfAdults=sc.nextInt();
+    int noOfChildrean=sc.nextInt();
+    int totalWeight=75*noOfAdults+30*noOfChildrean;
+        if(wL>totalWeight)
+        {
+            System.out.println("Boat is stable");
+        }
+        else
+        {
+            System.out.println("Boat will drown");
+        }
+    }
+    
+}
